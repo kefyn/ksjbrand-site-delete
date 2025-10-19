@@ -95,3 +95,7 @@ const config: QuartzConfig = {
 }
 
 export default config
+export default defineConfig({
+  // ...
+  baseUrl: "/ksjbrand-site",   // important for project pages under kefyn.github.io/ksjbrand-site
+})
